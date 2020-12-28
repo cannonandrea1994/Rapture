@@ -1,13 +1,23 @@
 <template>
   <div class="container">
     <div class="row">
+        <div class="col-md-9">
+          <Header />
+          <img src="webagency.png" style="max-width: 187px; max-height: 38px;">
+          </div>
+          <div class="col-md-3"> 
+            <Header />
+          <b>  About Us     Contact</b> 
+          </div>
+    </div>
+    <div class="row">
       <div class="col-md-12">
         <section class="section">
           <Button />
         </section>
       </div>
     </div>
-    <section class="section">
+      <section class="section">
       <div class="heading">
         <h2>Our Team</h2>
       </div>
@@ -41,9 +51,12 @@
     </section>
     <section class="section">
     <div class="row">
-      <div class="col-md-4"><Service /></div>
-      <div class="col-md-4"><Service /></div>
-      <div class="col-md-4"><Service /></div>
+      <div class="col-md-4">
+        <Service img="doctor.png" name="Jerome Bell" /></div>
+      <div class="col-md-4">
+        <Service img="busdude.png" name="Ronald Richards" /></div>
+      <div class="col-md-4">
+        <Service img="restlady.png" name="Leslie Knope" /></div>
     </div>
     <div class="row">
       <div class="col-md-4"><ServiceBordered /></div>
@@ -58,6 +71,54 @@
       </div>
     </div>
     </section>
+    <section>
+      <div class="section2">
+          <div class="row">
+            <div class="website"><Website /></div>
+          </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="section3">
+          <div class="row">
+            <div class="col-md-4"><Footer />
+            <img src="webagency.png">
+            <br><br>Jalan Gatak, Tamantirto, Kasihan, 
+            <br>Bantul, D. I. Yogyakarta 55183
+            </div>
+            <div class="col-md-2"><Footer />
+            <h5>Navigation</h5>
+            <br>Portfolio
+            <br>Contact
+            <br>Feature
+            <br>Pricing
+            </div>
+            <div class="col-md-2"><Footer />
+            <h5>About Us</h5>
+            <br>FAQ
+            <br>Contact
+            <br>Feature
+            <br>Client
+            </div>
+            <div class="col-md-2"><Footer />
+            <h5>Contact</h5>
+            <br>0822 3498 1535
+            <br>halo@web.agency
+            </div>
+          </div>
+        </div>
+      </div>    
+    </section>
+    <section>
+      <div class="container">
+        <div class="section4">
+          <div class="row">
+            <span class="copyright"><b>© Copyright 2020 web.agency</b></span>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -68,6 +129,9 @@ import Service from '@/components/Service.vue'
 import ServiceBordered from '@/components/ServiceBordered.vue'
 import Typeography from '@/components/Typeography.vue'
 import Button from '@/components/Button.vue'
+import Website from '@/components/Website.vue'
+import Footer from '@/components/Footer.vue'
+import Header from '@/components/Header.vue'
 export default {
   components: {
     TeamMember,
@@ -76,15 +140,33 @@ export default {
     ServiceBordered,
     Typeography,
     Button,
+    Website,
+    Footer,
+    Header,
   },
 }
 </script>
 
 <style>
 .section {
-  padding: 90px 0;
+  padding: 90px 0; 
+}
+.section3 {
+  padding-left: 150px;
+  padding-bottom: 125px;
+}
+.section4 {
+  padding-top: 125px;
+  padding-bottom: 40px;
+}
+.copyright{
+  margin: auto;
 }
 img {
   max-width: 100%;
+}
+.col-md-9 {
+  width: 100%;
+  max-width: 767px;
 }
 </style>
