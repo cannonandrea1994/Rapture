@@ -3,11 +3,9 @@
     <div class="row">
         <div class="col-md-9">
           <Header />
-          <img src="webagency.png" style="max-width: 187px; max-height: 38px;">
           </div>
           <div class="col-md-3"> 
             <Header />
-          <b>  About Us     Contact</b> 
           </div>
     </div>
     <div class="row">
@@ -19,26 +17,23 @@
     </div>
       <section class="section">
       <div class="heading">
-        <h2>Our Team</h2>
       </div>
       <div class="row">
         <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-          <TeamMember img="staff.png" name="Cody Fisher" title="Drug Dealer" />
+          <TeamMember />
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-          <TeamMember img="mid.png" name="Henry Courtney" title="UI/UX Designer" />
+          <TeamMember />
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-          <TeamMember img="title.png" name="Dianne Russel" title="Front End Developer" />
+          <TeamMember />
         </div>
       </div>
     </section>
     <section class="section">
       <div class="row align-items-center">
         <div class="col-md-4">
-          <div class="heading">
-            <h2>Pricing</h2>
-            <p> has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
+          <div class="heading"> 
           </div>
         </div>
         <div class="col-md-4">
@@ -52,11 +47,11 @@
     <section class="section">
     <div class="row">
       <div class="col-md-4">
-        <Service img="doctor.png" name="Jerome Bell" /></div>
+        <Service /></div>
       <div class="col-md-4">
-        <Service img="busdude.png" name="Ronald Richards" /></div>
+        <Service /></div>
       <div class="col-md-4">
-        <Service img="restlady.png" name="Leslie Knope" /></div>
+        <Service /></div>
     </div>
     <div class="row">
       <div class="col-md-4"><ServiceBordered /></div>
@@ -83,28 +78,12 @@
         <div class="section3">
           <div class="row">
             <div class="col-md-4"><Footer />
-            <img src="webagency.png">
-            <br><br>Jalan Gatak, Tamantirto, Kasihan, 
-            <br>Bantul, D. I. Yogyakarta 55183
             </div>
             <div class="col-md-2"><Footer />
-            <h5>Navigation</h5>
-            <br>Portfolio
-            <br>Contact
-            <br>Feature
-            <br>Pricing
             </div>
             <div class="col-md-2"><Footer />
-            <h5>About Us</h5>
-            <br>FAQ
-            <br>Contact
-            <br>Feature
-            <br>Client
             </div>
             <div class="col-md-2"><Footer />
-            <h5>Contact</h5>
-            <br>0822 3498 1535
-            <br>halo@web.agency
             </div>
           </div>
         </div>
@@ -114,7 +93,6 @@
       <div class="container">
         <div class="section4">
           <div class="row">
-            <span class="copyright"><b>© Copyright 2020 web.agency</b></span>
           </div>
         </div>
       </div>
@@ -150,17 +128,6 @@ export default {
 <style>
 .section {
   padding: 90px 0; 
-}
-.section3 {
-  padding-left: 150px;
-  padding-bottom: 125px;
-}
-.section4 {
-  padding-top: 125px;
-  padding-bottom: 40px;
-}
-.copyright{
-  margin: auto;
 }
 img {
   max-width: 100%;
