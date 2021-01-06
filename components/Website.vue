@@ -14,15 +14,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-  &--full {
-    width: 100%;
-    max-width: 100%;
-  }
-
-  &:hover,
-  &:focus {
-    color: #ffffff;
-    text-decoration: none;
-  }
-</style>
+<style lang="scss" scoped></style>

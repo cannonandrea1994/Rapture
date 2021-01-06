@@ -1,14 +1,6 @@
 <template>
   <div class="container">
     <div class="row">
-        <div class="col-md-9">
-          <Header />
-          </div>
-          <div class="col-md-3"> 
-            <Header />
-          </div>
-    </div>
-    <div class="row">
       <div class="col-md-12">
         <section class="section">
           <Button />
@@ -73,30 +65,7 @@
           </div>
       </div>
     </section>
-    <section>
-      <div class="container">
-        <div class="section3">
-          <div class="row">
-            <div class="col-md-4"><Footer />
-            </div>
-            <div class="col-md-2"><Footer />
-            </div>
-            <div class="col-md-2"><Footer />
-            </div>
-            <div class="col-md-2"><Footer />
-            </div>
-          </div>
-        </div>
-      </div>    
-    </section>
-    <section>
-      <div class="container">
-        <div class="section4">
-          <div class="row">
-          </div>
-        </div>
-      </div>
-    </section>
+    
   </div>
 </template>
 
@@ -108,8 +77,6 @@ import ServiceBordered from '@/components/ServiceBordered.vue'
 import Typeography from '@/components/Typeography.vue'
 import Button from '@/components/Button.vue'
 import Website from '@/components/Website.vue'
-import Footer from '@/components/Footer.vue'
-import Header from '@/components/Header.vue'
 export default {
   components: {
     TeamMember,
@@ -118,14 +85,20 @@ export default {
     ServiceBordered,
     Typeography,
     Button,
-    Website,
-    Footer,
-    Header,
+    Website
   },
 }
 </script>
 
 <style>
+.headsection {
+  background-image: url("/Background.png");
+  display: block;
+  height: 100%;
+  width: 100%;
+  max-width: 1600px;
+  max-height: 900px;
+}
 .section {
   padding: 90px 0; 
 }
