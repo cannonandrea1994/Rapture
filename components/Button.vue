@@ -1,46 +1,49 @@
 <template>
-  <a href="" class="button" :class="{ 'button--full': full }">Get Started</a>
+  <div class="page-head" style="background-image: url('/Backgroundclothes.png')">
+    <div class="button">
+      <button>PLUG INTO RAPTURE'S PLATFORM</button>
+    </div>
+    <div class="tablet">
+      <img src="/tablet.png" alt="tablet" style="width: 1472px">
+    </div>
+  </div>
 </template>
 
 <script>
 export default {
-  props: {
-    full: {
-      type: String
-    },
-  },
 }
 </script>
 
 <style lang="scss" scoped>
-$accent: #FFA149;
-.button {
-  outline: none;
-  box-shadow: none;
+.page-head {
+  height: 100vh;
+  width: 100vw;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+button {
+  font-size: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 25px;
   background-color: transparent;
-  color: $accent;
-  border: 2px solid $accent;
-  font-size: 16px;
-  line-height: 1;
-  padding: 20px 10px;
-  text-transform: uppercase;
-  width: 100%;
-  max-width: 200px;
+  color: #fff;
   transition: all .2s ease-in-out;
+  position: fixed;
+   top: 286px;
+   left: 438px; 
+ &:hover,
+ &:focus{
+  background: #3B55E6;
+  color: #ffffff;
   text-decoration: none;
-  display: block;
-  text-align: center;
-
-  &--full {
-    width: 100%;
-    max-width: 100%;
-  }
-
-  &:hover,
-  &:focus {
-    background: $accent;
-    color: #ffffff;
-    text-decoration: none;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);   
   }
 }
+.tablet{
+  position: absolute;
+    top: 443px;
+    left: 240px;
+}
+
 </style>
