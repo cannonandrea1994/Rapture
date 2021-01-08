@@ -5,8 +5,8 @@
       <li class="site-nav__item"><nuxt-link :to="{ name: 'page' }">Page</nuxt-link></li>
       <li class="site-nav__item"><nuxt-link :to="{ name: 'posts' }">Posts</nuxt-link></li>
       <li><div class="headline">
-            <img src="LogoRapture.png"></div></li>
-      <li class="site-nav__item_right"><nuxt-link :to="'/'">Help</nuxt-link></li>
+      <img src="LogoRapture.png"></div></li>
+      <li class="site-nav__item"><nuxt-link :to="{ name: 'help' }">Help</nuxt-link></li>
       <li class="sign-in"><nuxt-link :to="{ name: 'index' }">Sign In</nuxt-link></li>
       <li><button>Sign Up!</button></li>
     </ul>
@@ -14,9 +14,7 @@
 </template>
 
 <script>
-  export default {
-    
-  }
+  export default {}
 </script>
 
 <style lang="scss" scoped>

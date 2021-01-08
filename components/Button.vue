@@ -63,7 +63,7 @@ export default {
 }
 .tablet {
   position: absolute;
-    top: 370px;
+    top: 443px;
     left: 240px;
 }
 
