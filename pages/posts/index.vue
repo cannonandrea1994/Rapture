@@ -1,18 +1,18 @@
 <template>
   <body>
     <div class="section">
-      <div class="archive_head">
-        <span class="border">The physical environment is the place where every dimension of the brand can be experienced in its purest form. We are globally renowned for our strength in all areas of interior and architectural design, including retail, restaurant and workplace.</span>
+      <div class="borders">
+        The physical environment is the place where every dimension of the brand can be experienced in its purest form. We are globally renowned for our strength in all areas of interior and architectural design, including retail, restaurant and workplace.
       </div>
       <div class="row">
-        <div class="col-lg-4">
-        <li><nuxt-link :to="{ name: 'posts-id', params: { id: (1) }}">Post #1</nuxt-link></li>
+        <div class="col-md-4">
+        <li><nuxt-link :to="{ name: 'posts-id', params: { id: (1) }}"><img src="/citynight.png"></nuxt-link></li>Post #1
         </div>
-        <div class="col-lg-4">
-          <li>  <nuxt-link :to="{ name: 'posts-id', params: { id: (2) }}">Post #2</nuxt-link></li>
+        <div class="col-md-4">
+          <li>  <nuxt-link :to="{ name: 'posts-id', params: { id: (2) }}"><img src="/foodtables.png"></nuxt-link></li>Post #2
         </div>
-        <div class="col-lg-4">
-          <li><nuxt-link :to="{ name: 'posts-id', params: { id: (3) }}">Post #3</nuxt-link></li>
+        <div class="col-md-4">
+          <li><nuxt-link :to="{ name: 'posts-id', params: { id: (3) }}"><img src="/crappycomputers.png"></nuxt-link></li>Post #3
         </div>
     </div>
    </div> 
@@ -25,15 +25,35 @@
 </script>
 
 <style lang="scss" scoped>
-body {
-  background-color: blueviolet;
+li {
+ list-style: none;
 }
-.archive_head {
+body {
+  background-color: #413f3c;
+}
+.borders {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+  border: transparent;
   height: 100%;
   width: 100%;
   max-width: 754px;
-  max-height: 84px;
-  border: 1px white solid;
-  padding: 198px 419px 0px 427px;
+  max-height: 168px;
+  position: absolute;
+    top: 150px;
+    left: 500px;
 }
+.row {
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+    top: 350px;
+  display: inline-flex;
+}
+
+
 </style>

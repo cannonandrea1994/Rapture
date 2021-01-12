@@ -5,7 +5,7 @@
       <li class="site-nav__item"><nuxt-link :to="{ name: 'page' }">Page</nuxt-link></li>
       <li class="site-nav__item"><nuxt-link :to="{ name: 'posts' }">Posts</nuxt-link></li>
       <li><div class="headline">
-      <img src="LogoRapture.png"></div></li>
+      <img src="/LogoRapture.png"></div></li>
       <li class="site-nav__item"><nuxt-link :to="{ name: 'help' }">Help</nuxt-link></li>
       <li class="sign-in"><nuxt-link :to="{ name: 'index' }">Sign In</nuxt-link></li>
       <li><button>Sign Up!</button></li>
@@ -19,11 +19,11 @@
 
 <style lang="scss" scoped>
 .site-nav__list {
-  padding-left: 214px;
+  padding-left: 360px;
 }
 .headline {
   display: inline-block;
-  margin-left: 180px;
+  margin: 0px 50px 0px 50px;
 }
 li {
   display: inline;
