@@ -2,15 +2,14 @@
   <body>
     <div class="container">
       <div class="section">
-        Single Post {{ 1 }}
-        dhthbrtbtfrdb
+       single post {{ 1 }}
       </div>
     </div>
   </body>
 </template>
 
 <script>
-  export default {
+   export default {
     computed: {
       id() {
         return this.$route.params.id
