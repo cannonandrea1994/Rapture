@@ -1,5 +1,6 @@
 <template>
   <div class="footer">
+    drbgrdaagberdbrefgverafg
   </div>
 </template>
 

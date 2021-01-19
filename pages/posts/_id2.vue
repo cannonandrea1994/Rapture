@@ -3,6 +3,7 @@
     <div class="container">
       <div class="section">
        post {{ 2 }}
+       
       </div>
     </div>
   </body>
