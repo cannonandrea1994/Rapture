@@ -29,11 +29,13 @@
 </script>
 
 <style lang="scss" scoped>
+
+
 body {
   height: 100%;
   max-width: 100vw;
   max-height: 100vh;
-  background-color: blueviolet;
+  background-color: rgb(37, 191, 238);
 }
 h3 {
   position: absolute;

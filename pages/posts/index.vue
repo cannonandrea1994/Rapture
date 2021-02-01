@@ -9,10 +9,10 @@
         <li><nuxt-link :to="{ name: 'posts-id', params: { id: 1  }}"><img src="/citynight.png"></nuxt-link></li>Post #1
         </div>
         <div class="col-md-4">
-          <li>  <nuxt-link :to="{ name: 'posts-id2', params: { id2: 2 }}"><img src="/foodtables.png"></nuxt-link></li>Post #2
+          <li>  <nuxt-link :to="{ name: 'posts-id2', params: { id: 2 }}"><img src="/foodtables.png"></nuxt-link></li>Post #2
         </div>
         <div class="col-md-4">
-          <li><nuxt-link :to="{ name: 'posts-id', params: { id }}"><img src="/crappycomputers.png"></nuxt-link></li>Post #3
+          <li><nuxt-link :to="{ name: 'posts-id', params: { id: 3 }}"><img src="/crappycomputers.png"></nuxt-link></li>Post #3
         </div>
       </div>
     </div> 
